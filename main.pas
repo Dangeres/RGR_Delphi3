@@ -13,7 +13,6 @@ type
   protected
     procedure Paint; override;
     procedure DrawIndicator(NewColor: TColor);
-    //procedure change;
   public
     constructor Create(AOwner: TComponent); override;
     property Color: TColor read fColor write SetColor;
